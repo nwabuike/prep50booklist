@@ -19,8 +19,27 @@
             <a id="logo-container" href="#" class="brand-logo red-text text-lighten-2">Prep50</a>
         </div>
     </nav>
-    <img class="materialboxed" width="auto" src="img/back_1.jpg">
-    
+    <!-- <div>
+        <img class="materialboxed" width="800" src="img/back_1.jpg">
+    </div> -->
+    <div class="slider">
+        <ul class="slides">
+            <!-- <li>
+                <img src="https://lorempixel.com/580/250/nature/1">
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li> -->
+            <li>
+                <img src="img/booklist.jpg"> <!-- random image -->
+                <!-- <div class="caption left-align">
+                    <h3>Left Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div> -->
+            </li>
+        </ul>
+    </div>
     <br>
     <div class="container">
         <div class="section">
@@ -80,11 +99,19 @@
 
             <p>If you are buying both, you pay N15,000 instead of the usual N22,500. So technically, a school can procure JAMB and WAEC series at the price (N15,000) we sell the WAEC only to parents. Grab your copies NOW</p>
 
-            <p>We have included here some pictures and samples of our books, you can download them to have a feel of what you will get. If you are a parent reading this, send this link <a target="_blank" href="prep50booklist.prep50mobileapp.com.ng">prep50booklist.prep50mobileapp.com.ng</a> to your childs' teacher or any school authority you know. This madness must stop and you need to help.</p>
+            <p>We have included here some pictures and samples of our books, you can download them to have a feel of what you will get. If you are a parent reading this, send this link <a target="_blank" href="https://prep50booklist.prep50mobileapp.com.ng/">prep50booklist.prep50mobileapp.com.ng</a> to your childs' teacher or any school authority you know. This madness must stop and you need to help.</p>
 
-            <a target="_blank" href="doc/Prep50 Chemistry Sample pages.pdf"><button class="btn btn-primary"><i class="material-icons">cloud_download</i> Download Chemistry</button></a>
-            <a target="_blank" href="doc/Prep50 Economics sample pages.pdf"><button class="btn btn-primary"><i class="material-icons">cloud_download</i> Download Economics</button></a>
-            <a target="_blank" href="doc/Prep50 Maths Sample pages.pdf"><button class="btn btn-primary"><i class="material-icons">cloud_download</i> Download Maths</button></a>
+            <div class="row">
+                <div class="col s12 m4" style="margin-bottom: 20px;">
+                    <a target="_blank" href="doc/Prep50 Chemistry Sample pages.pdf"><button class="btn btn-primary"><i class="material-icons">cloud_download</i> Download Chemistry</button></a>
+                </div>
+                <div class="col s12 m4" style="margin-bottom: 20px;">
+                    <a target="_blank" href="doc/Prep50 Economics sample pages.pdf"><button class="btn btn-primary"><i class="material-icons">cloud_download</i> Download Economics</button></a>
+                </div>
+                <div class="col s12 m4">
+                    <a target="_blank" href="doc/Prep50 Maths Sample pages.pdf"><button class="btn btn-primary"><i class="material-icons">cloud_download</i> Download Maths</button></a>
+                </div>
+            </div>
 
             <p>Answers can be found at the back of the book</p>
 
@@ -106,14 +133,8 @@
     <script src="https://js.paystack.co/v1/inline.js"></script> -->
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(e) {
-            $('select').material_select();
-            onSubmit();
-
-
-            $('.carousel.carousel-slider').carousel({
-                fullWidth: true
-            });
+        $(document).ready(function() {
+            $('.slider').slider();
         });
     </script>
 </body>
