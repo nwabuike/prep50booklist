@@ -19,26 +19,8 @@
             <a id="logo-container" href="#" class="brand-logo red-text text-lighten-2">Prep50</a>
         </div>
     </nav>
-    <div class="carousel carousel-slider center" data-indicators="true">
-        <div class="carousel-fixed-item center">
-            <h5 class="white-text">Smash Your Jamb With Prep50 Past Questions</h5>
-        </div>
-        <div class="carousel-item white-text" href="#one!">
-            <!-- <h2>Prep50 Books</h2> -->
-            <img src="./img/back_3.jpg" class="responsive-img">
-            <!-- <p class="white-text">This is your Where Your success is Assured</p> -->
-        </div>
-        <div class="carousel-item white-text" href="#two!">
-            <!-- <h2>Prep50 Books</h2> -->
-            <img src="./img/waec_ad.jpg" class="responsive-img">
-            <!-- <p class="white-text">This is your Where Your success is Assured</p> -->
-        </div>
-        <div class="carousel-item red white-text" href="#four!">
-            <!-- <h2>Prep50 Books</h2> -->
-            <!-- <p class="white-text">This is your Where Your success is Assured</p> -->
-            <img src="./img/back_4.jpg" class="responsive-img">
-        </div>
-    </div>
+    <img class="materialboxed" width="auto" src="img/back_1.jpg">
+    
     <br>
     <div class="container">
         <div class="section">
@@ -101,7 +83,7 @@
             <p>We have included here some pictures and samples of our books, you can download them to have a feel of what you will get. If you are a parent reading this, send this link <a target="_blank" href="prep50booklist.prep50mobileapp.com.ng">prep50booklist.prep50mobileapp.com.ng</a> to your childs' teacher or any school authority you know. This madness must stop and you need to help.</p>
 
             <a target="_blank" href="doc/Prep50 Chemistry Sample pages.pdf"><button class="btn btn-primary"><i class="material-icons">cloud_download</i> Download Chemistry</button></a>
-            <a target="_blank" href="doc/Prep50 Economics sample pages.pdf"><button class="btn btn-primary"><i class="material-icons">cloud_download</i> Download Econimics</button></a>
+            <a target="_blank" href="doc/Prep50 Economics sample pages.pdf"><button class="btn btn-primary"><i class="material-icons">cloud_download</i> Download Economics</button></a>
             <a target="_blank" href="doc/Prep50 Maths Sample pages.pdf"><button class="btn btn-primary"><i class="material-icons">cloud_download</i> Download Maths</button></a>
 
             <p>Answers can be found at the back of the book</p>
@@ -117,6 +99,23 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <!-- <script type="text/javascript" src="./js/jquery-2.2.2.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <script src="https://js.paystack.co/v1/inline.js"></script> -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+            $('select').material_select();
+            onSubmit();
+
+
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true
+            });
+        });
+    </script>
 </body>
 
 </html>
