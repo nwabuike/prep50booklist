@@ -11,6 +11,31 @@
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
     <link type="text/css" rel="stylesheet" href="css/style.css" />
     <title>Prep50 | Booklist</title>
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '790896761578624');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=790896761578624&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -45,6 +70,7 @@
         <div class="section">
             <h5>Now that you are here, it really means you have genuine intention for your students. I need you to listen to this experiment and you can do one in your school after this.</h5>
 
+            <h5 class="red-text text-lighten-2">The Experiment</h5>
             <p>Go to any class from SS1 to SS 3, select any topic they have been taught this term and then go to any WAEC or JAMB past question around you and dig up the standard questions from that topic.(of course if you are not using Prep50, that will be hard for you to do, but try). If you are using Prep50, the questions are already arranged topic by topic according to the syllabus. So select 5 random questions and give the students a test/quiz. What we learnt from this experiment was unbelievable.</p>
 
             <p>We did our own quiz with students immediately after the lecture was taught. We assumed that so long as the questions came immediately after the lessons that the students will perform better. No they didn't. Only a little above 10% of the students answered all the questions correctly. The other 89% failed and it was not because the test was sudden, No its because they couldn't even attempt the question.</p>
@@ -57,8 +83,9 @@
 
             <p>See, when we tried to produce the prep50 mobile app, we brought-in the best teachers around to help us produce the notes on all the topics for selected subjects. They wrote the notes but we had to return them because the simple quality assurance test we devised was to try to see if we can answer all WAEC and JAMB questions on that topic after reading their notes. Only the winner of the Maltina Teacher Award and one other teacher passed the quality assurance test. When we asked them what they did differently, they confirmed that even without telling them, they have already learned to consult these standard past questions before preparing for any lesson.</p>
 
-            <h4> Do your teachers do so?</h4>
-
+            <h5> Do your teachers do so?</h5>
+            <br>
+            <h5 class="red-text text-lighten-2">Our Solution</h5>
             <p>Do they consult all past questions from WAEC and JAMB on the topic they are about to teach before preparing the lessons? I guess no, very many teachers don't and its so sad how these students are not well prepared for these exams and we all have resorted to exam malpractice to make it up. If your teachers are in the league of those who do, then this Prep50 series is not for you. One of the reasons the teachers we worked with gave for not going through the past questions before writing on any topic was that digging out these questions from the usual past questions arranged in years and categorizing them topic by topic and sub-topic by sub-topic is hard. That was how PREP50 was born. We went to work to make it easier for them and for you to see these questions topic by topic, sub-topic by subtopic and to make the most effective use of them.</p>
 
             <p>This is the problem the PREP50 series has helped teachers, students and schools to solve and as such PREP50 must be included on your BOOKLIST for 2020/21 academic year. Here are the reasons why.</p>
@@ -71,7 +98,7 @@
             <p>The prep50 series captures all the topics in the SSCE and JAMB syllabus such that an SS1 student doing a particular topic in class can see how questions from that topic are framed in WAEC or JAMB. Many of you do approve and recommend workbooks on your booklist but when you open such workbooks, you will immediately see how watered-down they are, yet teachers go on to recommend them all because of commission.</p>
 
             <p>Like, is it not so intuitive that when you want to produce a workbook for a particular subject, that you first of all scout and gather all manner of exam past questions on the subject, be it WAEC, NECO, JAMB, GCE anything exam body u can find. Does one need any supernatural powers to know that this is the only way one can design a better workbook, yet every workbook you open after another is lacking those standard questions from notable exam bodies. It just goes to show you how incompetent we have become in handling our schools and our children in this country. Well as we have learnt, the publishers are traders in the market and they probably care less about standard. Everything for them is margin and profit or maybe there is no alternative for teachers to rely on. Either way, we have produced a more viable alternative in PREP50.</p>
-
+            <h5 class="red-text text-lighten-2">Benefits</h5>
             <p>Get Prep50 SSCE and JAMB for your teachers to ensure that every lesson they prepare meets the standard WAEC and JAMB test questions. Prep50 will make their loads and burden easier when they want set questions for test or exams</p>
 
 
@@ -81,25 +108,26 @@
 
             <p>Remeber, If you do not place that call to add PREP50 to your booklist now, you are like the vendor that allowed a pharmacist to sell chalk to people instead of paracetamol all for profit. The profit and commission mongers will approve their own and tell you to leave it next year as if they ever planned to consider it.</p>
 
-            <p>Tear that book-list NOW and redo another one.</p>
+            <h5 class="red-text text-lighten-2">Tear that book-list NOW and redo another one!!!</h5>
 
-            <p>Ensure that the best workbook ever which is Prep50 is recommended for SS1, SS2 and SS3 classes. Do it NOW and then give us a call for a favourable quotation for the books.</p>
+            <h5 class="green-text">Pricing</h5>
+            <h5>Ensure that the best workbook ever which is Prep50 is recommended for SS1, SS2 and SS3 classes. Do it NOW and then give us a call for a favourable quotation for the books.</h5>
 
             <p>usually we sell in bundles to parents as you can see from the pix below. We have the Science bundles, Arts and Social Sciences for WAEC then Science & Arts bundle for JAMB.</p>
 
-            <p>Each waec bundle sells at N15,000 per bundle</p>
+            <p>Each waec bundle sells at <b class="red-text text-lighten-2">&#8358;15,000</b> per bundle</p>
 
-            <p>while JAMB is N10,000.</p>
+            <p>while JAMB is <b class="red-text text-lighten-2">&#8358;10,000</b>.</p>
 
             <p>But for our book-list promotion, we will be giving the schools a 40% discount when they buy in bulk.</p>
 
-            <p>SO for WAEC bundles, you will get it @ N9,000 (7 to 8 books in a bundle),</p>
+            <p>SO for WAEC bundles, you will get it @ <b class="red-text text-lighten-2">&#8358;9,000</b><b class="green-text text-lighten-2"> (7 to 8 books in a bundle),</b></p>
 
-            <p>while the JAMB is N6000 per bundle (4 books in a bundle).</p>
+            <p>while the JAMB is <b class="red-text text-lighten-2">&#8358;6000</b> per bundle <b class="green-text text-lighten-2">(4 books in a bundle)</b>.</p>
 
-            <p>If you are buying both, you pay N15,000 instead of the usual N22,500. So technically, a school can procure JAMB and WAEC series at the price (N15,000) we sell the WAEC only to parents. Grab your copies NOW</p>
+            <p>If you are buying both, you pay <b class="red-text text-lighten-2">&#8358;15,000</b> instead of the usual <b class="red-text text-lighten-2">&#8358;22,500</b>. So technically, a school can procure JAMB and WAEC series at the price (N15,000) we sell the WAEC only to parents. Grab your copies NOW</p>
 
-            <p>We have included here some pictures and samples of our books, you can download them to have a feel of what you will get. If you are a parent reading this, send this link <a target="_blank" href="https://prep50booklist.prep50mobileapp.com.ng/">prep50booklist.prep50mobileapp.com.ng</a> to your childs' teacher or any school authority you know. This madness must stop and you need to help.</p>
+            <p>We have included here some pictures and samples of our books, you can download them to have a feel of what you will get. If you are a parent reading this, send this link <a target="_blank" href="https://prep50booklist.prep50mobileapp.com.ng/">prep50booklist.prep50mobileapp.com.ng</a> to your childs' teacher or any school authority you know or call <b>09038356928</b>. This madness must stop and you need to help.</p>
 
             <div class="row">
                 <div class="col s12 m4" style="margin-bottom: 20px;">
@@ -116,6 +144,112 @@
             <p>Answers can be found at the back of the book</p>
 
             <p> Fill the form below, so we can give you a quotation based on the number of students in your senior secondary. Please do not fill the form if you are still doing book politics, we are not interested in that.</p>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <form class="col s12" class="reg" id="reg">
+                <div class="row">
+                    <div class="input-field col m6 s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="fullname" type="text" class="validate">
+                        <label for="icon_prefix">FullName</label>
+                    </div>
+                    <div class="input-field col m6 s12">
+                        <i class="material-icons prefix">school</i>
+                        <input id="school" type="text" class="validate">
+                        <label for="school">School Name</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="phone" type="tel" class="validate">
+                        <label for="icon_telephone">Phone Number</label>
+                    </div>
+                    <!-- <div class="input-field col s6">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Telephone</label>
+                    </div> -->
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">add_location</i>
+                        <input id="address" type="text" name="address" class="validate" required />
+                        <label for="address">Enter Your Full Address of your School</label>
+                    </div>
+                    <div class="col s12 m6">
+                        <!-- <i class="material-icons prefix">add_location</i> -->
+                        <!-- <h5 class="red-text text-lighten-2">State of address </h5> -->
+                        <select required name="state" id="state">
+                            <option disabled selected>Select State</option>
+                            <option value="Abia">Abia</option>
+                            <option value="Adamawa">Adamawa</option>
+                            <option value="Akwa Ibom">Akwa Ibom</option>
+                            <option value="Anambra">Anambra</option>
+                            <option value="Bauchi">Bauchi</option>
+                            <option value="Bayelsa">Bayelsa</option>
+                            <option value="Benue">Benue</option>
+                            <option value="Borno">Borno</option>
+                            <option value="Cross Rive">Cross River</option>
+                            <option value="Delta">Delta</option>
+                            <option value="Ebonyi">Ebonyi</option>
+                            <option value="Edo">Edo</option>
+                            <option value="Ekiti">Ekiti</option>
+                            <option value="Enugu">Enugu</option>
+                            <option value="FCT">Federal Capital Territory</option>
+                            <option value="Gombe">Gombe</option>
+                            <option value="Imo">Imo</option>
+                            <option value="Jigawa">Jigawa</option>
+                            <option value="Kaduna">Kaduna</option>
+                            <option value="Kano">Kano</option>
+                            <option value="Katsina">Katsina</option>
+                            <option value="Kebbi">Kebbi</option>
+                            <option value="Kogi">Kogi</option>
+                            <option value="Kwara">Kwara</option>
+                            <option value="Lagos">Lagos</option>
+                            <option value="Nasarawa">Nasarawa</option>
+                            <option value="Niger">Niger</option>
+                            <option value="Ogun">Ogun</option>
+                            <option value="Ondo">Ondo</option>
+                            <option value="Osun">Osun</option>
+                            <option value="Oyo">Oyo</option>
+                            <option value="Plateau">Plateau</option>
+                            <option value="Rivers">Rivers</option>
+                            <option value="Sokoto">Sokoto</option>
+                            <option value="Taraba">Taraba</option>
+                            <option value="Yobe">Yobe</option>
+                            <option value="Zamfara">Zamfara</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <h5>Jamb Booklist</h5>
+                        <input id="phone" type="number" class="validate" placeholder="Art (numbers only)">
+                        <!-- <label for="icon_numberephone">Phone Number</label> -->
+                        <input id="phone" type="number" class="validate" placeholder="Science (numbers only)">
+                        <!-- <label for="icon_numberephone">Phone Number</label> -->
+                    </div>
+                    <div class="col s12 m6">
+                        <h5>Waec Booklist</h5>
+                        <input id="phone" type="number" class="validate" placeholder="Science (numbers only)">
+                        <!-- <label for="icon_numberephone">Phone Number</label> -->
+                        <input id="phone" type="number" class="validate" placeholder="Art (numbers only)">
+                        <!-- <label for="icon_numberephone">Phone Number</label> -->
+                        <input id="phone" type="number" class="validate" placeholder="Commerical (numbers only)">
+                        <!-- <label for="icon_telephone">Phone Number</label> -->
+                    </div>
+
+                </div>
+                <div class="row center">
+                    <button class="btn waves-effect waves-light center" id="Btn" type="submit" name="submit">
+                        Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
     <footer class="page-footer">
@@ -135,6 +269,24 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('.slider').slider();
+            $('select').material_select();
+            $('#reg').submit(function() {
+                $.ajax({
+                    url: './php/register.php',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {
+                        'fullname': $('#fullname').val(),
+                        'school': $('#school').val(),
+                        'phone': $('#phone').val()
+
+                    }
+                }).always(function(response) {
+                    console.log(response);
+                });
+
+                return false;
+            });
         });
     </script>
 </body>
