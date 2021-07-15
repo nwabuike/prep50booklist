@@ -38,7 +38,7 @@ VALUES('" . $user_name . "', '" . $user_school . "', '" . $user_phone . "', '" .
     }
     return !$result;
 }
- else {
-    $output = json_encode(array('type'=>'error', 'text' => 'There was an error running the query [' . $conn->error . ']'));
-    die($output);
-}
+//  else {
+//     $output = json_encode(array('type'=>'error', 'text' => 'There was an error running the query [' . $conn->error . ']'));
+//     die($output);
+// }
