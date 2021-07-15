@@ -153,17 +153,17 @@
                 <div class="row">
                     <div class="input-field col m6 s12">
                         <i class="material-icons prefix">account_circle</i>
-                        <input id="fullname" type="text" class="validate">
+                        <input id="fullname" name="fullname" type="text" class="validate">
                         <label for="icon_prefix">FullName</label>
                     </div>
                     <div class="input-field col m6 s12">
                         <i class="material-icons prefix">school</i>
-                        <input id="school" type="text" class="validate">
+                        <input id="school" name="school" type="text" class="validate">
                         <label for="school">School Name</label>
                     </div>
                     <div class="input-field col s12 m6">
                         <i class="material-icons prefix">phone</i>
-                        <input id="phone" type="tel" class="validate">
+                        <input id="phone" name="phone" type="tel" class="validate">
                         <label for="icon_telephone">Phone Number</label>
                     </div>
                     <!-- <div class="input-field col s6">
@@ -227,18 +227,18 @@
                 <div class="row">
                     <div class="col s12 m6">
                         <h5>Jamb Booklist</h5>
-                        <input id="phone" type="number" class="validate" placeholder="Art (numbers only)">
+                        <input id="jambart" name="jambart" type="number" class="validate" placeholder="Art (numbers only)">
                         <!-- <label for="icon_numberephone">Phone Number</label> -->
-                        <input id="phone" type="number" class="validate" placeholder="Science (numbers only)">
+                        <input id="jambsci" name="jambsci" type="number" class="validate" placeholder="Science (numbers only)">
                         <!-- <label for="icon_numberephone">Phone Number</label> -->
                     </div>
                     <div class="col s12 m6">
                         <h5>Waec Booklist</h5>
-                        <input id="phone" type="number" class="validate" placeholder="Science (numbers only)">
+                        <input id="waecsci" name="waecsci" type="number" class="validate" placeholder="Science (numbers only)">
                         <!-- <label for="icon_numberephone">Phone Number</label> -->
-                        <input id="phone" type="number" class="validate" placeholder="Art (numbers only)">
+                        <input id="waecart" name="waecart" type="number" class="validate" placeholder="Art (numbers only)">
                         <!-- <label for="icon_numberephone">Phone Number</label> -->
-                        <input id="phone" type="number" class="validate" placeholder="Commerical (numbers only)">
+                        <input id="waeccom" name="waeccom" type="number" class="validate" placeholder="Commerical (numbers only)">
                         <!-- <label for="icon_telephone">Phone Number</label> -->
                     </div>
 
@@ -248,6 +248,9 @@
                         Submit
                         <i class="material-icons right">send</i>
                     </button>
+                </div>
+                <div class="progress" id="loader-icon" style="display:none; ">
+                    <div class="indeterminate"></div>
                 </div>
             </form>
         </div>
@@ -270,24 +273,75 @@
         $(document).ready(function() {
             $('.slider').slider();
             $('select').material_select();
-            $('#reg').submit(function() {
-                $.ajax({
-                    url: './php/register.php',
-                    type: 'POST',
-                    dataType: 'json',
-                    data: {
-                        'fullname': $('#fullname').val(),
-                        'school': $('#school').val(),
-                        'phone': $('#phone').val()
+            onSubmit();
+            // $('#reg').submit(function() {
+            //     $.ajax({
+            //         url: './php/register.php',
+            //         type: 'POST',
+            //         dataType: 'json',
+            //         data: {
+            //             'fullname': $('#fullname').val(),
+            //             'school': $('#school').val(),
+            //             'phone': $('#phone').val()
 
-                    }
-                }).always(function(response) {
-                    console.log(response);
-                });
+            //         }
+            //     }).always(function(response) {
+            //         console.log(response);
+            //     });
 
-                return false;
-            });
+            //     return false;
+            // });
         });
+
+        function onSubmit() {
+            $('#Btn').on('click', function(evt) {
+                $("#mail-status").hide();
+                $('#send-message').hide();
+                $('#loader-icon').show();
+                $("#genForm").show();
+                evt.preventDefault();
+
+                // var data = user_data;
+                // let email = "support@prep50.ng";
+                // disableSubmitBtn();
+                // payWithPaystackJambHard();
+                sendToPhp();
+
+            });
+        }
+
+        function sendToPhp() {
+            $.post("./php/register.php", {
+                    "fullname": $('input[name="fullname"]').val(),
+                    "school": $('input[name="school"]').val(),
+                    "phone": $('input[name="phone"]').val(),
+                    "address": $('input[name="address"]').val(),
+                    "state": $('select[name="state"]').val(),
+                    "jambBooklist_sci": $('input[name="jambsci"]').val(),
+                    "jambBooklist_art": $('input[name="jambart"]').val(),
+                    "waecBooklist_sci": $('input[name="waecsci"]').val(),
+                    "waecBooklist_art": $('input[name="waecart"]').val(),
+                    "waecBooklist_com": $('input[name="waeccom"]').val(),
+
+                })
+                // .error(function(error) {});
+                .done(function(response) {
+                    console.log(response);
+                    $("#mail-status").show();
+                    $('#loader-icon').hide();
+                    if (response.type == "error") {
+                        $('#JambHardBtn').show();
+                        $("#mail-status").attr("class", "error");
+                    } else if (response.type == "message") {
+                        $('#JambHardBtn').hide();
+                        $("#mail-status").attr("class", "success");
+                        // window.location.href = "thanks.html";
+                        window.location.href = "thank-you.html";
+                    }
+                    window.location.href = "thank-you.html";
+                    $("#mail-status").html(response.text);
+                });
+        }
     </script>
 </body>
 
