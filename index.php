@@ -126,6 +126,109 @@
             <p>while the JAMB is <b class="red-text text-lighten-2">&#8358;6000</b> per bundle <b class="green-text text-lighten-2">(4 books in a bundle)</b>.</p>
 
             <p>If you are buying both, you pay <b class="red-text text-lighten-2">&#8358;15,000</b> instead of the usual <b class="red-text text-lighten-2">&#8358;22,500</b>. So technically, a school can procure JAMB and WAEC series at the price (N15,000) we sell the WAEC only to parents. Grab your copies NOW</p>
+            <div class="">
+                <div class="section">
+                    <div class="row">
+                        <h3 class="header col s12 red-text text-lighten-2">
+                            Jamb Bundle
+                        </h3>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/bio_jamb.jpg" />
+                            <h5 class="red-text">Biology</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/eng_jamb.jpg" />
+                            <h5 class="red-text">English Language</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/maths_jamb.jpg" />
+                            <h5 class="red-text">Mathematics</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/phy_jamb.jpg" />
+                            <h5 class="red-text">Physics</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/chem_jamb.jpeg" />
+                            <h5 class="red-text">Chemistry</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/lit_ssce.jpg" />
+                            <h5 class="red-text">Literature In Eng.</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/gov_jamb.jpg" />
+                            <h5 class="red-text">Government</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/crs_jamb.jpg" />
+                            <h5 class="red-text">C.R.S</h5>
+                        </div>
+                    </div>
+                    <div class="row center">
+                        <!-- <div class="col s12 m6" style="margin-bottom: 20px;">
+                    <a id="download-button" href="#modal1" class="btn-large waves-effect modal-trigger waves-light red lighten-1">Buy Jamb Soft Copy</a>
+                </div> -->
+                        <div class="col s12 ">
+                            <a id="download-button" href="#reg" class="btn-large waves-effect modal-trigger waves-light red lighten-1">Buy Jamb Bundle</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+
+            <div class="">
+                <div class="section">
+                    <h3 class="header col s12 red-text text-lighten-2">WAEC Bundle</h3>
+                    <div class="row">
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/bio_waec.jpeg" />
+                            <h5 class="red-text">Biology</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/eng_ssce.jpg" />
+                            <h5 class="red-text">English Language</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/maths_waec.jpg" />
+                            <h5 class="red-text">Mathematics</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/physics_ssce.jpg" />
+                            <h5 class="red-text">Physics</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/lit_waec.jpeg" />
+                            <h5 class="red-text">Literature In Eng.</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/gov_waec.jpg" />
+                            <h5 class="red-text">Government</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/crk_ssce.jpg" />
+                            <h5 class="red-text">C.R.S</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/che_ssce.jpg" />
+                            <h5 class="red-text">Chemistry</h5>
+                        </div>
+                        <div class="col s6 m4">
+                            <img class="responsive-img" src="img/civic_waec.jpg" />
+                            <h5 class="red-text">Civic Education</h5>
+                        </div>
+                    </div>
+
+                    <div class="row center">
+                        <div class="col s12 m12">
+                            <a href="#form" id="download-button" class="btn-large modal-trigger waves-effect waves-light red lighten-1">Buy Waec Bundle</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
 
             <p>We have included here some pictures and samples of our books, you can download them to have a feel of what you will get. If you are a parent reading this, send this link <a target="_blank" href="https://prep50booklist.prep50mobileapp.com.ng/">prep50booklist.prep50mobileapp.com.ng</a> to your childs' teacher or any school authority you know or call <b>09038356928</b>. This madness must stop and you need to help.</p>
 
